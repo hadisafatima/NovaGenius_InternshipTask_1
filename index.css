@@ -1,0 +1,1013 @@
+@media screen and (min-width: 1299px) and (max-width: 1400px) {
+  body #home h1 {
+    font-size: 3.5rem !important;
+  }
+  body #home p {
+    padding: 0 9rem !important;
+  }
+  body #home #ipadImg {
+    width: 60rem !important;
+  }
+  body #page2 div #page2Text h1 {
+    font-size: 2rem !important;
+  }
+  body #page3 #page3Img #dottedBg #lowDots {
+    position: relative;
+    width: 18rem;
+    left: 8rem !important;
+    top: 8rem !important;
+  }
+  body #page3 #page3Text #borderLeft {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    position: relative;
+    margin: 0rem 2rem 17rem 0rem !important;
+    width: 0.4rem;
+    color: #F7797D;
+    font-size: 0.5rem;
+  }
+  body #page3 #page3Text #page3Div {
+    position: relative;
+    left: 2rem;
+  }
+  body #page3 #page3Text div h1 {
+    font-size: 2.4rem !important;
+  }
+  body #page4 #page4Text div h1 {
+    padding-right: 5rem !important;
+  }
+  body #page4 #page4Text #borderRight {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    position: relative;
+    margin: 0 5rem 5rem 0 !important;
+    width: 0.4rem;
+    color: #F7797D;
+    font-size: 0.5rem;
+    padding-left: 0.3rem !important;
+  }
+  body #page4 #accounts {
+    padding: 0 7rem 0 3rem !important;
+  }
+  body #page5 {
+    padding: 6rem 5rem !important;
+  }
+  body #page5 #page5Right div h1 {
+    font-size: 1.8rem !important;
+  }
+  body #page5 #page5Right #page5BorderLeft {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    position: relative;
+    margin: 0 3rem !important;
+    width: 0.4rem;
+    color: #F7797D;
+    font-size: 0.5rem;
+  }
+  body #page6 #page6Cards .outerDiv {
+    width: 20rem !important;
+  }
+  body #page6 #page6Cards .outerDiv:hover #card3BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 7.3rem !important;
+  }
+  body #page6 #page6Cards .outerDiv:hover #card5BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.9rem !important;
+  }
+  body #page7 #page7Text #pointsDiv {
+    padding: 0 6rem 0 0 !important;
+  }
+  body #page7 #page7Text #goalDiv {
+    margin: 0 !important;
+  }
+  body #page7 #page7Text #goalDiv div p {
+    margin-right: -2rem !important;
+  }
+  body #page8 h1 {
+    padding: 0 29rem 0 0;
+  }
+  body #page8 #page6Cards .outerDiv {
+    width: 20rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card3BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 7.3rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card5BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.9rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card6BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.9rem !important;
+  }
+  body #page9 #page9Text #mainText {
+    margin: 0 6rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev {
+    left: 15rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev #client {
+    width: 3rem !important;
+    height: 3rem !important;
+    margin: 0.5rem 1rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev div h4 {
+    margin: 0.5rem 0 -0.1rem 0 !important;
+  }
+  body #page9 #page9Text #mainTextShadow {
+    margin: 0 5rem -23rem 5rem !important;
+  }
+  body #page10 #requestForm {
+    margin: 0 8rem !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1298px) {
+  body #home h1 {
+    font-size: 2.7rem !important;
+  }
+  body #home p {
+    padding: 0 4rem !important;
+  }
+  body #home #ipadImg {
+    width: 40rem !important;
+  }
+  body #page2 div #page2Text h1 {
+    font-size: 1.5rem !important;
+  }
+  body #page2 div #page2Text div p {
+    font-size: 0.9rem !important;
+    padding-top: 0.6rem !important;
+  }
+  body #page2 div #page2Img {
+    padding-top: 6rem !important;
+  }
+  body #page3 {
+    padding: 7rem 7rem 0 !important;
+    position: relative !important;
+    top: -0.05rem !important;
+  }
+  body #page3 #page3Img {
+    padding: 7rem 0 0 0 !important;
+  }
+  body #page3 #page3Img #imgDiv {
+    left: -2rem !important;
+  }
+  body #page3 #page3Img #dottedBg #upDots {
+    width: 14rem !important;
+    left: -7rem !important;
+    top: -4rem !important;
+  }
+  body #page3 #page3Img #dottedBg #lowDots {
+    width: 14rem !important;
+    left: 5rem !important;
+    top: 2rem !important;
+  }
+  body #page3 #page3Text {
+    margin: 0 1rem !important;
+  }
+  body #page3 #page3Text #borderLeft {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    position: relative;
+    margin: 3rem 4rem 18rem 0 !important;
+    width: 0.4rem;
+    color: #F7797D;
+    font-size: 0.5rem;
+    padding-left: 0.3rem !important;
+  }
+  body #page3 #page3Text div h1 {
+    font-size: 1.5rem !important;
+  }
+  body #page3 #page3Text div #page3Content div i {
+    font-size: 0.9rem !important;
+  }
+  body #page3 #page3Text div #page3Content div h3 {
+    font-size: 1.2rem !important;
+  }
+  body #page3 #page3Text div #page3Content p {
+    font-size: 0.8rem !important;
+  }
+  body #page4 #page4Text div h1 {
+    padding-right: 3rem !important;
+    font-size: 1.5rem !important;
+  }
+  body #page4 #page4Text div p {
+    font-size: 0.8rem !important;
+  }
+  body #page4 #page4Text #borderRight {
+    left: 3rem !important;
+    padding-left: 0.3rem !important;
+  }
+  body #page4 #accounts {
+    padding: 2rem 0 0 0 !important;
+  }
+  body #page4 #accounts div div i {
+    font-size: 1.1rem !important;
+    padding-top: 0.2rem !important;
+  }
+  body #page4 #accounts div div h2 {
+    font-size: 1.2rem !important;
+  }
+  body #page4 #accounts div p {
+    margin: 0 4rem !important;
+    font-size: 0.8rem !important;
+    position: relative;
+    left: -2rem !important;
+  }
+  body #page5 {
+    padding: 6rem 4rem !important;
+    position: relative !important;
+    top: -0.05rem !important;
+  }
+  body #page5 #page5Left div h2 {
+    font-size: 1.2rem !important;
+  }
+  body #page5 #page5Left div p {
+    font-size: 0.8rem !important;
+  }
+  body #page5 #page5Right div h1 {
+    font-size: 1.5rem !important;
+    margin-right: -2rem !important;
+  }
+  body #page5 #page5Right div p {
+    font-size: 0.8rem !important;
+  }
+  body #page6 {
+    padding: 10rem 4rem !important;
+  }
+  body #page6 h1 {
+    font-size: 1.5rem !important;
+  }
+  body #page6 #page6Cards .outerDiv {
+    width: 16.4rem !important;
+  }
+  body #page6 #page6Cards .outerDiv div div h2 {
+    font-size: 1.2rem !important;
+  }
+  body #page6 #page6Cards .outerDiv div p {
+    font-size: 0.8rem !important;
+  }
+  body #page6 #page6Cards .outerDiv:hover #card1BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.2rem !important;
+  }
+  body #page6 #page6Cards .outerDiv:hover #card3BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 6.4rem !important;
+  }
+  body #page6 #page6Cards .outerDiv:hover #card5BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 4.1rem !important;
+  }
+  body #page6 #page6Cards .outerDiv:hover #card6BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.3rem !important;
+  }
+  body #page7 #page7Img {
+    position: relative;
+    top: 4rem;
+  }
+  body #page7 #page7Text h1 {
+    font-size: 1.5rem !important;
+  }
+  body #page7 #page7Text h3 {
+    font-size: 1.1rem !important;
+  }
+  body #page7 #page7Text #pointsDiv {
+    font-size: 0.8rem !important;
+    padding: 0 2rem 0 0 !important;
+  }
+  body #page7 #page7Text #goalDiv {
+    padding: 1rem 2rem 0rem 1rem !important;
+    margin: 0 !important;
+  }
+  body #page7 #page7Text #goalDiv div h2 {
+    font-size: 1.1rem !important;
+  }
+  body #page7 #page7Text #goalDiv div p {
+    font-size: 0.8rem !important;
+  }
+  body #page8 {
+    padding: 5rem 4rem !important;
+  }
+  body #page8 h1 {
+    font-size: 1.5rem !important;
+  }
+  body #page8 #page6Cards .outerDiv {
+    width: 16.4rem !important;
+  }
+  body #page8 #page6Cards .outerDiv div div h2 {
+    font-size: 1.1rem !important;
+  }
+  body #page8 #page6Cards .outerDiv div p {
+    font-size: 0.8rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card1BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.2rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card3BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 6.4rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card5BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 4.1rem !important;
+  }
+  body #page8 #page6Cards .outerDiv:hover #card6BB {
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: 5.4rem !important;
+  }
+  body #page9 #page9Text {
+    padding: 5rem 4rem !important;
+  }
+  body #page9 #page9Text #aboveImgs h1 {
+    font-size: 1.5rem !important;
+  }
+  body #page9 #page9Text #mainText {
+    margin: 0 5rem !important;
+    padding: 3rem 3rem 1rem !important;
+  }
+  body #page9 #page9Text #mainText #stars {
+    font-size: 1.2rem !important;
+  }
+  body #page9 #page9Text #mainText #msg {
+    font-size: 1.2rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev {
+    left: 13rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev #client {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev div {
+    margin-left: -1rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev div h4 {
+    font-size: 1.1rem !important;
+  }
+  body #page9 #page9Text #mainText #clientRev div p {
+    font-size: 0.8rem !important;
+    padding-left: 1rem !important;
+  }
+  body #page9 #page9Text #mainTextShadow {
+    margin: 0 4rem -23rem !important;
+    height: 23rem !important;
+    top: -22rem !important;
+  }
+  body #page9 #page9Text #below #thirdImg {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+  body #page9 #page9Text #below #fourthImg {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+  body #page10 h1 {
+    font-size: 2rem !important;
+  }
+  body #page10 #requestForm {
+    margin: 0 !important;
+  }
+  body #page10 #requestForm button {
+    margin: 0 8.5rem !important;
+  }
+  body footer {
+    padding: 0 4rem !important;
+  }
+  body footer #textDiv {
+    padding: 4rem 0 !important;
+  }
+  body footer #textDiv div p {
+    font-size: 0.8rem !important;
+  }
+  body footer #textDiv div h2 {
+    font-size: 1.2rem !important;
+  }
+}
+body {
+  background-color: #342E30;
+}
+body #navBar #options ul li .nav-link {
+  color: aliceblue;
+}
+body #navBar #options button {
+  color: aliceblue;
+}
+body #bg-styles {
+  position: fixed;
+}
+body #bg-styles #left {
+  background-color: #F7797D;
+  height: 15vw;
+  position: fixed;
+  box-shadow: 100px 100px 300px #F7797D, 286px 100px 500px #F7797D;
+  left: -33rem;
+  top: 11rem;
+}
+body #bg-styles #top {
+  background-color: #E9779A;
+  height: 15vw;
+  position: fixed;
+  box-shadow: 100px 100px 300px #E9779A, 286px 100px 500px #E9779A;
+  left: 11rem;
+  top: -20rem;
+}
+body #bg-styles #right {
+  background-color: #C371EC;
+  height: 15vw;
+  position: fixed;
+  box-shadow: 100px 100px 300px #C371EC, 286px 100px 500px #C371EC;
+  left: 105rem;
+  top: 11rem;
+  rotate: 150deg;
+}
+body #home {
+  position: relative;
+  z-index: 1;
+}
+body #home h1 {
+  font-size: 4.1rem;
+  color: aliceblue;
+}
+body #home h1 span {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #home p {
+  color: aliceblue;
+  padding: 0 20rem;
+}
+body #home button {
+  color: aliceblue;
+}
+body #home #dottedBorder {
+  border: 3px dashed aliceblue;
+  border-bottom: none;
+  margin: 0 1rem;
+  position: relative;
+  height: 15rem;
+}
+body #home #dottedBorder div #mail {
+  background-color: #C32F38;
+  position: relative;
+  top: -1.5rem;
+  color: rgba(240, 248, 255, 0.8509803922);
+  box-shadow: 10px 3px 20px #C32F38, -10px 3px 20px #C32F38;
+}
+body #home #dottedBorder div #fbIcon {
+  background-color: #296CD2;
+  position: relative;
+  left: -2rem;
+  box-shadow: 10px 3px 20px #296CD2, -10px 3px 20px #296CD2;
+  color: rgba(240, 248, 255, 0.8509803922);
+}
+body #home #dottedBorder div #liIcon {
+  background-color: #296CD2;
+  position: relative;
+  left: 2rem;
+  box-shadow: 10px 3px 20px #296CD2, -10px 3px 20px #296CD2;
+  color: rgba(240, 248, 255, 0.8509803922);
+  padding: 0 0.7rem;
+}
+body #home #ipadImg {
+  position: relative;
+  border: 5px solid #1E1E1F;
+  border-radius: 15px;
+  top: -12rem;
+  text-align: center;
+  margin: 0;
+  box-shadow: 7px 14px 23px #3FAA51;
+  width: 71rem;
+}
+body #page2 {
+  background-color: white;
+  position: relative;
+  padding-top: 20rem;
+  margin-top: -27rem;
+}
+body #page2 #page2Text .exText {
+  color: #3FAA51;
+}
+body #page2 #page2Text h1 span {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page2 #page2Text div p {
+  color: #8b94a4;
+}
+body #page3 {
+  background-color: white;
+  position: relative;
+  z-index: 0;
+  padding: 10rem 7rem 0;
+}
+body #page3 #page3Img #dottedBg {
+  position: relative;
+  z-index: 0;
+}
+body #page3 #page3Img #dottedBg #upDots {
+  position: relative;
+  width: 18rem;
+  left: -11rem;
+}
+body #page3 #page3Img #dottedBg #lowDots {
+  position: relative;
+  width: 18rem;
+  left: 13rem;
+  top: 12rem;
+}
+body #page3 #page3Img #imgDiv {
+  position: relative;
+  z-index: 1;
+  top: -21rem;
+}
+body #page3 #page3Text {
+  margin: 0 3rem;
+}
+body #page3 #page3Text #borderLeft {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  position: relative;
+  margin: 3rem 0 24rem;
+  width: 0.4rem;
+  color: #F7797D;
+  font-size: 0.5rem;
+}
+body #page3 #page3Text div .exText {
+  color: #3FAA51;
+}
+body #page3 #page3Text div h1 span {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page3 #page3Text div #page3Content div div i {
+  color: #3FAA51;
+}
+body #page3 #page3Text div #page3Content div p {
+  color: #8b94a4;
+}
+body #page4 {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  top: -6rem;
+}
+body #page4 #page4Text div .exText {
+  color: #3FAA51;
+}
+body #page4 #page4Text div h1 {
+  padding-right: 15rem;
+}
+body #page4 #page4Text div h1 span {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page4 #page4Text div p {
+  color: #8b94a4;
+}
+body #page4 #page4Text #borderRight {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  position: relative;
+  margin: 0 0 1rem 0;
+  width: 0.4rem;
+  color: #F7797D;
+  font-size: 0.5rem;
+  left: 6rem;
+  padding-left: 0.2rem;
+}
+body #page4 #accounts {
+  padding: 0 10rem 0 3rem;
+}
+body #page4 #accounts #liDiv div i {
+  color: #296CD2;
+}
+body #page4 #accounts #liDiv p {
+  color: #8b94a4;
+}
+body #page4 #accounts #mailDiv div i {
+  color: #C32F38;
+}
+body #page4 #accounts #mailDiv p {
+  color: #8b94a4;
+}
+body #page4 #accounts #fbDiv div i {
+  color: #296CD2;
+}
+body #page4 #accounts #fbDiv p {
+  color: #8b94a4;
+}
+body #page5 {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 6rem 8rem;
+  margin: -6rem 0;
+}
+body #page5 #page5Left div {
+  box-shadow: 4px 4px 8px 8px rgba(233, 119, 154, 0.06);
+}
+body #page5 #page5Left div p {
+  color: #8b94a4;
+}
+body #page5 #page5Right #page5BorderLeft {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  position: relative;
+  margin: 3rem 0 2rem 3rem;
+  width: 0.4rem;
+  color: #F7797D;
+  font-size: 0.5rem;
+  left: -1rem;
+  padding-left: 0.3rem;
+}
+body #page5 #page5Right div .exText {
+  color: #3FAA51;
+}
+body #page5 #page5Right div h1 span {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page5 #page5Right div p {
+  color: #8b94a4;
+}
+body #page6 {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding: 10rem 8rem;
+}
+body #page6 .exText {
+  color: #3FAA51;
+}
+body #page6 h1 span {
+  background-image: linear-gradient(30deg, #F7797D 0%, #E9779A 15%, #C371EC 50%, #7992EB 95%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page6 #page6Cards .outerDiv {
+  width: 24rem;
+  margin: 0 1.6rem 0 0;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4784313725);
+}
+body #page6 #page6Cards .outerDiv div div i {
+  background: linear-gradient(90deg, rgba(247, 121, 125, 0.4705882353) 0%, rgba(233, 119, 154, 0.5215686275) 25%, rgba(195, 113, 236, 0.5019607843) 50%, rgba(121, 146, 235, 0.4588235294) 75%);
+  color: white;
+}
+body #page6 #page6Cards .outerDiv div p {
+  color: #8b94a4;
+}
+body #page6 #page6Cards .outerDiv:hover {
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4784313725);
+}
+body #page6 #page6Cards .outerDiv:hover div div i {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+}
+body #page6 #page6Cards .outerDiv:hover #card1BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 4.3rem;
+}
+body #page6 #page6Cards .outerDiv:hover #card2BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 3rem;
+}
+body #page6 #page6Cards .outerDiv:hover #card3BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 5.9rem;
+}
+body #page6 #page6Cards .outerDiv:hover #card4BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 3.1rem;
+}
+body #page6 #page6Cards .outerDiv:hover #card5BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 4.3rem;
+}
+body #page6 #page6Cards .outerDiv:hover #card6BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 5.9rem;
+}
+body #page7 {
+  position: relative;
+  z-index: 1;
+  background-color: #262626;
+  color: aliceblue;
+}
+body #page7 #page7Text .exText {
+  color: #3FAA51;
+}
+body #page7 #page7Text #pointsDiv {
+  padding: 0 13rem 0 0;
+}
+body #page7 #page7Text #pointsDiv div i {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page7 #page7Text #goalDiv {
+  padding: 1.4rem 7rem 1.4rem 3rem;
+  margin: 0 4rem 0 0;
+  background-color: white;
+}
+body #page7 #page7Text #goalDiv i {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page7 #page7Text #goalDiv div h2 {
+  color: black;
+}
+body #page7 #page7Text #goalDiv div p {
+  color: #8b94a4;
+}
+body #page7 #page7Text button {
+  color: aliceblue;
+  background: linear-gradient(30deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+}
+body #page7 #page7Text button #btnIcon {
+  padding: 0 0.5rem;
+  rotate: 270deg;
+}
+body #page8 {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding: 10rem 8rem;
+}
+body #page8 .exText {
+  color: #3FAA51;
+}
+body #page8 h1 span {
+  background-image: linear-gradient(30deg, #F7797D 0%, #E9779A 15%, #C371EC 50%, #7992EB 95%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page8 #page6Cards .outerDiv {
+  width: 24.7rem;
+  margin: 0 1.6rem 0 0;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4784313725);
+}
+body #page8 #page6Cards .outerDiv div div i {
+  background: linear-gradient(90deg, rgba(247, 121, 125, 0.4705882353) 0%, rgba(233, 119, 154, 0.5215686275) 25%, rgba(195, 113, 236, 0.5019607843) 50%, rgba(121, 146, 235, 0.4588235294) 75%);
+  color: white;
+}
+body #page8 #page6Cards .outerDiv div p {
+  color: #8b94a4;
+}
+body #page8 #page6Cards .outerDiv:hover {
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4784313725);
+}
+body #page8 #page6Cards .outerDiv:hover div div i {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+}
+body #page8 #page6Cards .outerDiv:hover #card1BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 4.3rem;
+}
+body #page8 #page6Cards .outerDiv:hover #card2BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 3rem;
+}
+body #page8 #page6Cards .outerDiv:hover #card3BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 5.9rem;
+}
+body #page8 #page6Cards .outerDiv:hover #card4BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 3.1rem;
+}
+body #page8 #page6Cards .outerDiv:hover #card5BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 4.3rem;
+}
+body #page8 #page6Cards .outerDiv:hover #card6BB {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  height: 0.2rem;
+  position: relative;
+  top: 4.3rem;
+}
+body #page9 {
+  background-color: black;
+  position: relative;
+  z-index: 1;
+}
+body #page9 #backgroundStyles #left {
+  height: 0rem;
+  background: linear-gradient(45deg, rgba(217, 217, 217, 0.6) 60%, rgba(20, 135, 218, 0.6) 60%, rgba(250, 0, 255, 0.6) 60%);
+  width: 5rem;
+  box-shadow: 3px 3px 300px 140px rgba(128, 0, 128, 0.8);
+  position: relative;
+  top: 18rem;
+  left: 0rem;
+}
+body #page9 #backgroundStyles #top {
+  height: 0rem;
+  background: linear-gradient(45deg, rgba(217, 217, 217, 0.6) 60%, rgba(20, 135, 218, 0.6) 60%, rgba(250, 0, 255, 0.6) 60%);
+  width: 5rem;
+  box-shadow: 3px 3px 300px 140px rgba(128, 0, 128, 0.8);
+  position: relative;
+  top: 16rem;
+  left: -20rem;
+}
+body #page9 #page9Text {
+  padding: 5rem 10rem;
+  position: relative;
+  z-index: 1;
+}
+body #page9 #page9Text .exText {
+  color: #3FAA51;
+}
+body #page9 #page9Text #aboveImgs #firstImg {
+  position: relative;
+  top: -2rem;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+body #page9 #page9Text #aboveImgs h1 {
+  color: aliceblue;
+}
+body #page9 #page9Text #aboveImgs h1 span {
+  background: linear-gradient(45deg, #F7797D 0%, #C471ED 100%, #12C2E9 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page9 #page9Text #aboveImgs #secImg {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  top: 1rem;
+}
+body #page9 #page9Text #mainText {
+  margin: 0 10rem;
+  padding: 3rem;
+  background-color: white;
+}
+body #page9 #page9Text #mainText #stars {
+  color: #FFB53D;
+}
+body #page9 #page9Text #mainText #clientRev {
+  position: relative;
+  left: 17rem;
+}
+body #page9 #page9Text #mainText #clientRev #client {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+body #page9 #page9Text #mainText #clientRev div p {
+  color: #3FAA51;
+}
+body #page9 #page9Text #mainTextShadow {
+  background-color: white;
+  height: 25rem;
+  margin: 0 9rem;
+  opacity: 10%;
+  position: relative;
+  top: -24rem;
+  margin-bottom: -24rem;
+}
+body #page9 #page9Text #below #thirdImg {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: relative;
+  top: 4rem;
+}
+body #page9 #page9Text #below #dots {
+  color: white;
+  font-size: 0.5rem;
+  padding-left: 2rem;
+}
+body #page9 #page9Text #below #dots i {
+  color: white;
+  opacity: 20%;
+}
+body #page9 #page9Text #below #dots #whiteDot {
+  opacity: 100%;
+}
+body #page9 #page9Text #below img#fourthImg {
+  width: 6rem;
+  height: 6rem;
+}
+body #page10 {
+  position: relative;
+  z-index: 1;
+  padding: 9rem 15rem;
+  background-color: white;
+}
+body #page10 h1 span {
+  background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body #page10 #requestForm {
+  padding: 8rem 3rem;
+  margin: 0 15rem;
+  box-shadow: 0px 5px 8px -6px black;
+}
+body #page10 #requestForm div .inputs {
+  width: 14.3rem;
+}
+body #page10 #requestForm div .inputs input {
+  background-color: #F7F9FC;
+  border: none;
+}
+body #page10 #requestForm div select {
+  background-color: #F7F9FC;
+  border: none;
+}
+body #page10 #requestForm div textarea {
+  background-color: #F7F9FC;
+  border: none;
+}
+body #page10 #requestForm button {
+  background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+  margin: 0 9.5rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+body footer {
+  padding: 0rem 10rem;
+  background-color: #222D39;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+body footer #textDiv {
+  padding: 6rem 0;
+}
+body footer #textDiv div img {
+  width: 6rem;
+}
+body footer #textDiv div p {
+  color: #ADB7C2;
+}
+body footer #textDiv div i {
+  color: #ADB7C2;
+}
+body footer #accountsDiv {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.3019607843);
+  color: #ADB7C2;
+}/*# sourceMappingURL=index.css.map */

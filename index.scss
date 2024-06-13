@@ -1,0 +1,623 @@
+@import "mixins" ;
+@import "responsiveness" ;
+
+body{
+    background-color: #342E30;
+    #navBar{
+        #options{
+            ul{
+                li{
+                    .nav-link{
+                        color: aliceblue;
+                    }
+                }
+            }
+            button{
+                color: aliceblue;
+            }
+        }
+    }
+
+    #bg-styles{
+        position: fixed;
+        #left {
+            @include bgStyles(#F7797D, -33rem, 11rem) ;
+        }
+
+        #top {
+            @include bgStyles(#E9779A, 11rem, -20rem) ;
+        }
+
+        #right {
+            @include bgStyles(#C371EC, 105rem, 11rem) ;
+            rotate: 150deg;
+        }
+    }
+
+    #home{
+        position: relative;
+        z-index: 1;
+        h1{
+            font-size: 4.1rem;
+            color: aliceblue;
+            span{
+                @include colorfulText() ;
+            }
+        }
+
+        p{
+            color: aliceblue;
+            padding: 0 20rem;
+        }
+
+        button{
+            color: aliceblue;
+        }
+        #dottedBorder {
+            border: 3px dashed aliceblue;
+            border-bottom: none;
+            margin: 0 1rem;
+            position: relative;
+            height: 15rem;
+
+            div{
+                #mail {
+                    background-color: #C32F38;
+                    position: relative;
+                    top: -1.5rem;
+                    color: #f0f8ffd9;
+                    box-shadow: 10px 3px 20px #C32F38, -10px 3px 20px #C32F38;
+                }
+            }
+
+            div{
+                #fbIcon{
+                    @include homeImgBgIcons(-2rem) ;
+                }
+
+                #liIcon{
+                    @include homeImgBgIcons(2rem);
+                    padding: 0 0.7rem;
+                }
+            }
+        }
+
+        #ipadImg {
+            position: relative;
+            border: 5px solid #1E1E1F;
+            border-radius: 15px;
+            top: -12rem;
+            text-align: center;
+            margin: 0;
+            box-shadow: 7px 14px 23px #3FAA51;
+            width: 71rem;
+        }
+    }
+
+    #page2{
+        background-color: white;
+        position: relative;
+        padding-top: 20rem;
+        margin-top: -27rem;
+        #page2Text{
+            .exText{
+                color: #3FAA51;
+            }
+            h1{
+                span{
+                    @include colorfulText() ;
+                }
+            }
+            div{
+                p{
+                    color: #8b94a4;
+                }
+            }
+        }
+    }
+
+    #page3{
+        background-color: white;
+        position: relative;
+        z-index: 0;
+        padding: 10rem 7rem 0;
+        #page3Img{
+            #dottedBg{
+                #upDots{
+                    @include dotsImg(-11rem) ;
+                }
+
+                #lowDots{
+                    @include dotsImg(13rem) ;
+                    top: 12rem;
+                }
+                position: relative;
+                z-index: 0;
+            }
+            #imgDiv{
+                position: relative;
+                z-index: 1;
+                top: -21rem;
+            }
+        }
+        #page3Text{
+            margin: 0 3rem;
+            #borderLeft{
+                @include colorfulBorder(3rem 0 24rem) ;
+            }
+            div{
+                // margin: 0 0 0 3rem !important;
+
+                .exText{
+                    color: #3FAA51;
+                }
+                h1{
+                    span{
+                        @include colorfulText();
+                    }
+                }
+
+                #page3Content{
+                    div{
+                        div{
+                            i{
+                                color: #3FAA51;
+                            }
+                        }
+                        p{
+                            color: #8b94a4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #page4{
+        background-color: white;
+        position: relative;
+        z-index: 2;
+        top: -6rem;
+        #page4Text{
+            div{
+                .exText{
+                    color: #3FAA51;
+                }
+                h1{
+                    padding-right: 15rem;
+                    span{
+                        @include colorfulText();
+                    }
+                }
+                p{
+                    color: #8b94a4;
+                }
+            }
+
+            #borderRight{
+                @include colorfulBorder(0 0 1rem 0) ;
+                left: 6rem;
+                padding-left: 0.2rem;
+            }
+        }
+
+        #accounts{
+            padding: 0 10rem 0 3rem ;
+            #liDiv{
+                div{
+                    i{
+                        @include page4AccountsColors(#296CD2) ;
+                    }
+                }
+                p{
+                    color: #8b94a4 ;
+                }
+            }
+            #mailDiv{
+                div{
+                    i{
+                        @include page4AccountsColors(#C32F38) ;
+                    }
+                }
+                p{
+                    color: #8b94a4 ;
+                }
+            }
+            #fbDiv{
+                div{
+                    i{
+                        @include page4AccountsColors(#296CD2) ;
+                    }
+                }
+                p{
+                    color: #8b94a4 ;
+                }
+            }
+        }
+    }
+
+    #page5{
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        padding: 6rem 8rem;
+        margin: -6rem 0;
+        #page5Left{
+            div{
+                box-shadow: 4px 4px 8px 8px rgb(233 119 154 / 6%);
+                p{
+                    color: #8b94a4 ;
+                }
+            }
+        }
+        #page5Right{
+            #page5BorderLeft{
+                @include colorfulBorder(3rem 0 2rem 3rem) ;
+                left: -1rem;
+                padding-left: 0.3rem;
+            }
+            div{
+                .exText{
+                    color: #3FAA51;
+                }
+                h1{
+                    span{
+                        @include colorfulText() ;
+                    }
+                }
+                p{
+                    color: #8b94a4;
+                }
+            }
+        }
+    }
+
+    #page6{
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        padding: 10rem 8rem;
+        .exText{
+            color: #3FAA51;
+        }
+        h1{
+            span{
+                background-image: linear-gradient(30deg, #F7797D 0%, #E9779A 15%, #C371EC 50%, #7992EB 95%);
+                background-clip: text;
+                color: transparent;
+            }
+        }
+        #page6Cards{
+            .outerDiv{
+                width: 24rem;
+                margin: 0 1.6rem 0 0;
+                box-shadow: 2px 2px 14px #0000007a;
+                div{
+                    div{
+                        i{
+                            background: linear-gradient(90deg, #f7797d78 0%, #e9779a85 25%, #c371ec80 50%, #7992eb75 75%);
+                            color: white;
+                        }
+                    }
+                    p{
+                        color: #8b94a4;
+                    }
+                }
+            }
+                
+            .outerDiv:hover{
+                box-shadow: 2px 2px 14px #0000007a;
+                div{
+                    div{
+                        i{
+                            background: linear-gradient(90deg,  #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+                        }
+                    }
+                }
+                
+                #card1BB {
+                    @include bbOfPage6Cards(4.3rem) ;
+                }
+                #card2BB{
+                    @include bbOfPage6Cards(3rem) ;
+                }
+                #card3BB{
+                    @include bbOfPage6Cards(5.9rem) ;
+                }
+                #card4BB{
+                    @include bbOfPage6Cards(3.1rem) ;
+                }
+                #card5BB{
+                    @include bbOfPage6Cards(4.3rem) ;
+                }
+                #card6BB{
+                    @include bbOfPage6Cards(5.9rem) ;
+                }
+            }
+        }
+    }
+    
+    #page7{
+        position: relative;
+        z-index: 1;
+        background-color: #262626;
+        color: aliceblue;
+        #page7Text{
+            .exText{
+                color: #3FAA51;
+            }
+            #pointsDiv{
+                padding: 0 13rem 0 0;
+                div{
+                    i{
+                        @include colorfulText() ;
+                    }
+                }
+            }
+            #goalDiv{
+                padding: 1.4rem 7rem 1.4rem 3rem;
+                margin: 0 4rem 0 0 ;
+                background-color: white;
+                i{
+                    @include colorfulText() ;
+                }
+                div{
+                    h2{
+                        color: black;
+                    }
+                    p{
+                        color: #8b94a4;
+                    }
+                }
+            }
+            button{
+                color: aliceblue;
+                background: linear-gradient(30deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+                #btnIcon {
+                    padding: 0 0.5rem;
+                    rotate: 270deg;
+                }
+            }
+        }
+    }
+
+    #page8{
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        padding: 10rem 8rem;
+        .exText{
+            color: #3FAA51;
+        }
+        h1{
+            span{
+                background-image: linear-gradient(30deg, #F7797D 0%, #E9779A 15%, #C371EC 50%, #7992EB 95%);
+                background-clip: text;
+                color: transparent;
+            }
+        }
+        #page6Cards{
+            .outerDiv{
+                width: 24.7rem;
+                margin: 0 1.6rem 0 0;
+                box-shadow: 2px 2px 14px #0000007a;
+                div{
+                    div{
+                        i{
+                            background: linear-gradient(90deg, #f7797d78 0%, #e9779a85 25%, #c371ec80 50%, #7992eb75 75%);
+                            color: white;
+                        }
+                    }
+                    p{
+                        color: #8b94a4;
+                    }
+                }
+            }
+                
+            .outerDiv:hover{
+                box-shadow: 2px 2px 14px #0000007a;
+                div{
+                    div{
+                        i{
+                            background: linear-gradient(90deg,  #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+                        }
+                    }
+                }
+                
+                #card1BB {
+                    @include bbOfPage6Cards(4.3rem) ;
+                }
+                #card2BB{
+                    @include bbOfPage6Cards(3rem) ;
+                }
+                #card3BB{
+                    @include bbOfPage6Cards(5.9rem) ;
+                }
+                #card4BB{
+                    @include bbOfPage6Cards(3.1rem) ;
+                }
+                #card5BB{
+                    @include bbOfPage6Cards(4.3rem) ;
+                }
+                #card6BB{
+                    @include bbOfPage6Cards(4.3rem) ;
+                }
+            }
+        }
+    }
+
+    #page9{
+        // height: 100vh;
+        background-color: black;
+        position: relative;
+        z-index: 1;
+        #backgroundStyles{
+            #left {
+                @include page9BgStyles(18rem, 0rem)
+            }
+
+            #top {
+                @include page9BgStyles(16rem, -20rem) ;
+            }
+        }
+
+        #page9Text{
+            padding: 5rem 10rem;
+            position: relative;
+            z-index: 1;
+            .exText{
+                color: #3FAA51;
+            }
+
+            #aboveImgs{
+                #firstImg {
+                    position: relative;
+                    top: -2rem;
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                    border-bottom-left-radius: 50%;
+                }
+                h1{
+                    color: aliceblue;
+                    span{
+                        background: linear-gradient(45deg, #F7797D 0%, #C471ED 100%, #12C2E9 90%) ;
+                        background-clip: text;
+                        color: transparent;
+                    }
+                }
+                #secImg{
+                    width: 4rem;
+                    height: 4rem;
+                    position: relative;
+                    top: 1rem;
+                }
+            }
+
+            #mainText{
+                margin: 0 10rem;
+                padding: 3rem;
+                background-color: white;
+                #stars{
+                    color:#FFB53D;
+                }
+                #clientRev{
+                    position: relative;
+                    left: 17rem;
+                    #client{
+                        width: 4rem;
+                        height: 4rem;
+                        margin-right: 1rem;
+                    }
+                    div{
+                        p{
+                            color: #3FAA51;
+                        }
+                    }
+                }
+            }
+
+            #mainTextShadow {
+                background-color: white;
+                height: 25rem;
+                margin: 0 9rem;
+                opacity: 10%;
+                position: relative;
+                top: -24rem;
+                margin-bottom: -24rem;
+            }
+
+            #below{
+                #thirdImg {
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    position: relative;
+                    top: 4rem;
+                }
+                #dots{
+                    color: white;
+                    font-size: 0.5rem;
+                    padding-left: 2rem;
+                    i{
+                        color: white;
+                        opacity: 20%;
+                    }
+                    #whiteDot{
+                        opacity: 100%;
+                    }
+                }
+                img#fourthImg {
+                    width: 6rem;
+                    height: 6rem;
+                }
+            }
+        }
+    }
+
+    #page10{
+        position: relative;
+        z-index: 1;
+        padding: 9rem 15rem;
+        background-color: white;
+        h1{
+            span{
+                @include colorfulText();
+            }
+        }
+        #requestForm {
+            padding: 8rem 3rem;
+            margin: 0 15rem;
+            box-shadow: 0px 5px 8px -6px black;
+            div{
+                .inputs{
+                    width: 14.3rem;
+                    input{
+                        @include formInput() ;
+                    }
+                }
+            }
+            div{
+                select{
+                    @include formInput();
+                }
+            }
+            div{
+                textarea{
+                    @include formInput() ;
+                }
+            }
+            button{
+                background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+                margin: 0 9.5rem;
+                border: none;
+                color: white;
+                font-weight: 600;
+            }
+        }
+    }
+
+    footer{
+        padding: 0rem 10rem;
+        background-color: #222D39;
+        position: relative;
+        z-index: 1;
+        color: white;
+        #textDiv{
+            padding: 6rem 0;
+            div{
+                img{
+                    width: 6rem;
+                }
+                p{
+                    color: #ADB7C2;
+                }
+                i{
+                    color: #ADB7C2;
+                }
+            }
+        }
+        #accountsDiv {
+            border-top: 0.5px solid #ffffff4d;
+            color: #ADB7C2;
+        }
+    }
+}

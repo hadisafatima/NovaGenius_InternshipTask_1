@@ -1,0 +1,63 @@
+@mixin bgStyles($bgColor, $left, $top){
+    background-color: $bgColor;
+    height: 15vw;
+    position: fixed;
+    box-shadow: 100px 100px 300px $bgColor, 286px 100px 500px $bgColor;
+    left: $left;
+    top: $top;
+}
+
+@mixin homeImgBgIcons($left){
+    background-color: #296CD2;
+    position: relative;
+    left: $left;
+    box-shadow: 10px 3px 20px #296CD2, -10px 3px 20px #296CD2;
+    color: #f0f8ffd9;
+}
+
+@mixin colorfulText(){
+    background-image: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin dotsImg($left){
+    position: relative;
+    width: 18rem;
+    left: $left;
+}
+
+@mixin colorfulBorder($margin){
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    position: relative;
+    margin: $margin;
+    width: 0.4rem;
+    color: #F7797D;
+    font-size: 0.5rem;
+}
+
+@mixin page4AccountsColors($color){
+    color: $color;
+}
+
+@mixin bbOfPage6Cards($top){
+    background: linear-gradient(90deg, #F7797D 0%, #E9779A 25%, #C371EC 50%, #7992EB 75%);
+    height: 0.2rem;
+    position: relative;
+    top: $top ;
+}
+
+@mixin page9BgStyles($top, $left){
+    height: 0rem;
+    background: linear-gradient(45deg, #D9D9D999 60%, #1487DA99 60%, #FA00FF99 60%);
+    width: 5rem;
+    box-shadow: 3px 3px 300px 140px #800080cc;
+    position: relative;
+    top: $top;
+    left: $left;
+}
+
+@mixin formInput(){
+    background-color: #F7F9FC;
+    border: none;
+}

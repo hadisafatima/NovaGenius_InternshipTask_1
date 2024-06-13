@@ -1,0 +1,500 @@
+@media screen and (min-width : 1299px) and (max-width : 1400px) {
+    body{
+        #home{
+            h1{
+                font-size: 3.5rem !important;
+            }
+            p{
+                padding: 0 9rem !important;
+            }
+            #ipadImg{
+                width: 60rem !important;
+            }
+        }
+
+        #page2{
+            div{
+                #page2Text{
+                    h1{
+                        font-size: 2rem !important;
+                    }
+                }
+            }
+        }
+
+        #page3{
+            #page3Img{
+                #dottedBg{
+                    #lowDots{
+                        @include dotsImg(8rem !important) ;
+                        top: 8rem !important;
+                    }
+                }
+            }
+            #page3Text{
+                #borderLeft{
+                    @include colorfulBorder(0rem 2rem 17rem 0rem !important) ;
+                    // margin: 3rem 0 19rem !important;
+                }
+                #page3Div{
+                    position: relative;
+                    left: 2rem;
+                }
+                div{
+                    h1{
+                        font-size: 2.4rem !important;
+                    }
+                }
+            }
+        }
+
+        #page4{
+            #page4Text{
+                div{
+                    h1{
+                        padding-right: 5rem !important;
+                    }
+                }
+                #borderRight{
+                    @include colorfulBorder(0 5rem 5rem 0 !important) ;
+                    padding-left: 0.3rem !important;
+                }
+            }
+            #accounts{
+                padding: 0 7rem 0 3rem !important;
+            }
+        }
+
+        #page5{
+            padding: 6rem 5rem !important;
+            #page5Right{
+                div{
+                    h1{
+                        font-size: 1.8rem !important;
+                    }
+                }
+                #page5BorderLeft{
+                    @include colorfulBorder(0 3rem !important) ;
+                }
+            }
+        }
+
+        #page6{
+            #page6Cards{
+                .outerDiv{
+                    width: 20rem !important;
+                }
+                .outerDiv:hover{
+                    #card3BB{
+                        @include bbOfPage6Cards(7.3rem !important) ;
+                    }
+                    #card5BB{
+                        @include bbOfPage6Cards(5.9rem !important) ;
+                    }
+                }
+            }
+        }
+
+        #page7{
+            #page7Text{
+                #pointsDiv{
+                    padding: 0 6rem 0 0 !important;
+                }
+                #goalDiv{
+                    margin: 0 !important;
+                    div{
+                        p{
+                            margin-right: -2rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #page8{
+            h1{
+                padding: 0 29rem 0 0;
+            }
+            #page6Cards{
+                .outerDiv{
+                    width: 20rem !important;
+                }
+                .outerDiv:hover{
+                    #card3BB{
+                        @include bbOfPage6Cards(7.3rem !important) ;
+                    }
+                    #card5BB{
+                        @include bbOfPage6Cards(5.9rem !important) ;
+                    }
+                    #card6BB{
+                        @include bbOfPage6Cards(5.9rem !important) ;
+                    }
+                }
+            }
+        }
+
+        #page9{
+            #page9Text{
+                #mainText{
+                    margin: 0 6rem !important;
+                    #clientRev{
+                        left: 15rem !important;
+                        #client{
+                            width: 3rem !important;
+                            height: 3rem !important;
+                            margin: 0.5rem 1rem !important;
+                        }
+                        div{
+                            h4{
+                                margin: 0.5rem 0 -0.1rem 0 !important;
+                            }
+                        }
+                    }
+                }
+                #mainTextShadow{
+                    margin: 0 5rem -23rem 5rem !important;
+                }
+            } 
+        } 
+
+        #page10{
+            #requestForm{
+                margin: 0 8rem !important;
+            }
+        } 
+
+            
+    }
+}
+
+@media screen and (min-width : 992px) and (max-width : 1298px) {
+    body{
+        #home{
+            h1{
+                font-size: 2.7rem !important;
+            }
+            p{
+                padding: 0 4rem !important;
+            }
+            #ipadImg{
+                width: 40rem !important;
+            }
+        }
+
+        #page2{
+            div{
+                #page2Text{
+                    h1{
+                        font-size: 1.5rem !important;
+                    }
+                    div{
+                        p{
+                            font-size: 0.9rem !important;
+                            padding-top: 0.6rem !important;
+                        }
+                    }
+                }
+                #page2Img{
+                    padding-top: 6rem !important;
+                }
+            }
+        }
+
+        #page3{
+            padding: 7rem 7rem 0 !important;
+            position: relative !important;
+            top: -0.05rem !important;
+            #page3Img{
+                padding: 7rem 0 0 0 !important;
+                #imgDiv{
+                    left: -2rem !important;
+                }
+                #dottedBg{
+                    #upDots {
+                        width: 14rem !important;
+                        left: -7rem !important;
+                        top: -4rem !important;
+                    }
+                    #lowDots {
+                        width: 14rem !important;
+                        left: 5rem !important;
+                        top: 2rem !important;
+                    }
+                } 
+            } 
+            #page3Text{
+                margin: 0 1rem !important;
+                #borderLeft{
+                    @include colorfulBorder(3rem 4rem 18rem 0 !important) ;
+                    padding-left: 0.3rem !important;
+                }
+                div{
+                    h1{
+                        font-size: 1.5rem !important;
+                    }
+                    #page3Content{
+                        div{
+                            i{
+                                font-size: 0.9rem !important;
+                            }
+                            h3{
+                                font-size: 1.2rem !important;
+                            }
+                        }
+                        p{
+                            font-size: 0.8rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #page4{
+            #page4Text{
+                div{
+                    h1{
+                        padding-right: 3rem !important;
+                        font-size: 1.5rem !important;
+                    }
+                    p{
+                        font-size: 0.8rem !important;
+                    }
+                }
+                #borderRight{
+                    left: 3rem !important;
+                    padding-left: 0.3rem !important;
+                }
+            }
+            #accounts{
+                padding: 2rem 0 0 0 !important;
+                div{
+                    div{
+                        i{
+                            font-size:  1.1rem !important;
+                            padding-top: 0.2rem !important;
+                        }
+                        h2{
+                            font-size: 1.2rem !important;
+                        }
+                    }
+                    p {
+                        margin: 0 4rem !important;
+                        font-size: 0.8rem !important;
+                        position: relative;
+                        left: -2rem !important;
+                    }
+                }
+            }
+        }
+
+        #page5{
+            padding: 6rem 4rem !important;
+            position: relative !important;
+            top: -0.05rem !important;
+            #page5Left{
+                div{
+                    h2{
+                        font-size: 1.2rem !important;
+                    }
+                    p{
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+            #page5Right{
+                div{
+                    h1{
+                        font-size: 1.5rem !important;
+                        margin-right: -2rem !important;
+                    }
+                    p{
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+        }
+
+        #page6{
+            padding: 10rem 4rem !important;
+            h1{
+                font-size: 1.5rem !important;
+            }
+            #page6Cards{
+                .outerDiv{
+                    width: 16.4rem !important;
+                    div{
+                        div{
+                            h2{
+                                font-size: 1.2rem !important;
+                            }
+                        }
+                        p{
+                            font-size: 0.8rem !important;
+                        }
+                    }
+                }
+                .outerDiv:hover{
+                    #card1BB {
+                        @include bbOfPage6Cards(5.2rem !important) ;
+                    }
+                    #card3BB{
+                        @include bbOfPage6Cards(6.4rem !important) ;
+                    }
+                    #card5BB{
+                        @include bbOfPage6Cards(4.1rem !important) ;
+                    }
+                    #card6BB{
+                        @include bbOfPage6Cards(5.3rem !important) ;
+                    }
+                }
+            }
+        }
+
+        #page7{
+            #page7Img {
+                position: relative;
+                top: 4rem;
+            }
+            #page7Text{
+                h1{
+                    font-size: 1.5rem !important;
+                }
+                h3{
+                    font-size: 1.1rem !important;
+                }
+                #pointsDiv{
+                    font-size: 0.8rem !important;
+                    padding: 0 2rem 0 0 !important;
+                }
+                #goalDiv{
+                    padding: 1rem 2rem 0rem 1rem !important;
+                    margin: 0 !important;
+                    div{
+                        h2{
+                            font-size: 1.1rem !important;
+                        }
+                        p{
+                            font-size: 0.8rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #page8{
+            padding: 5rem 4rem !important;
+            h1{
+                font-size: 1.5rem !important;
+            }
+            #page6Cards{
+                .outerDiv{
+                    width: 16.4rem !important;
+                    div{
+                        div{
+                            h2{
+                                font-size: 1.1rem !important;
+                            }
+                        }
+                        p{
+                            font-size: 0.8rem !important;
+                        }
+                    }
+                }
+                .outerDiv:hover{
+                    #card1BB {
+                        @include bbOfPage6Cards(5.2rem !important) ;
+                    }
+                    #card3BB{
+                        @include bbOfPage6Cards(6.4rem !important) ;
+                    }
+                    #card5BB{
+                        @include bbOfPage6Cards(4.1rem !important) ;
+                    }
+                    #card6BB{
+                        @include bbOfPage6Cards(5.4rem !important) ;
+                    }
+                }
+            }
+        }
+
+        #page9{
+            #page9Text{
+                padding: 5rem 4rem !important;
+                #aboveImgs{
+                    h1{
+                        font-size: 1.5rem !important;
+                    }
+                }
+                #mainText{
+                    margin: 0 5rem !important;
+                    padding: 3rem 3rem 1rem !important;
+                    #stars{
+                        font-size: 1.2rem !important;
+                    }
+                    #msg{
+                        font-size: 1.2rem !important;
+                    }
+                    #clientRev{
+                        left: 13rem !important;
+                        #client{
+                            width: 3rem !important;
+                            height: 3rem !important;
+                        }
+                        div{
+                            margin-left: -1rem !important;
+                            h4{
+                                font-size: 1.1rem !important;
+                            }
+                            p{
+                                font-size: 0.8rem !important;
+                                padding-left: 1rem !important;
+                            }
+                        }
+                    }
+                }
+                #mainTextShadow{
+                    margin: 0 4rem -23rem !important;
+                    height: 23rem !important;
+                    top: -22rem !important;
+                }
+                #below{
+                    #thirdImg{
+                        width: 2.5rem !important;
+                        height: 2.5rem !important;
+                    }
+                    #fourthImg{
+                        width: 5rem !important;
+                        height: 5rem !important;
+                    }
+                }
+            }
+        }
+
+        #page10{
+            h1{
+                font-size: 2rem !important;
+            }
+            #requestForm{
+                margin: 0 !important;
+                button{
+                    margin: 0 8.5rem !important;
+                }
+            }
+        }
+
+        footer{
+            padding: 0 4rem !important;
+            #textDiv{
+                padding: 4rem 0 !important;
+                div{
+                    p{
+                        font-size: 0.8rem !important;
+                    }
+                    h2{
+                        font-size: 1.2rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
